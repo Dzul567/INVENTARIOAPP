@@ -117,7 +117,7 @@ export default function ProductListScreen({ navigation }) {
           </Text>
 
           <Text style={styles.statsText}>
-            📦 Productos registrados
+             Productos registrados
           </Text>
 
         </View>
@@ -131,7 +131,7 @@ export default function ProductListScreen({ navigation }) {
           </Text>
 
           <Text style={styles.statsText}>
-            💰 Valor del inventario
+             Valor del inventario
           </Text>
 
         </View>
@@ -153,11 +153,11 @@ export default function ProductListScreen({ navigation }) {
           <View style={styles.card}>
 
             <Text style={styles.nombre}>
-              📦 {item.nombre}
+               {item.nombre}
             </Text>
 
             <Text style={styles.info}>
-              🏷️ Categoría: {item.categoria}
+               Categoría: {item.categoria}
             </Text>
 
             <Text style={styles.info}>
